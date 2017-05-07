@@ -1,4 +1,4 @@
-Microservice used by Outflow. It was created with the intention of finding the expiration date on a user's domain name as a convenience when adding a subscription. It gathers the WHOIS data for a domain and returns it in JSON. To get the WHOIS information for a domain, you would do `/<domain-name>.
+Microservice used by Outflow. It was created with the intention of finding the expiration date on a user's domain name as a convenience when adding a subscription. It gathers the WHOIS data for a domain and returns it in JSON. To get the WHOIS information for a domain, you would do `/[Domain-name].
 
 ### Example:
 
