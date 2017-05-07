@@ -8,7 +8,6 @@ app.get('/:domain', function(req, res){
    var domainName = req.params["domain"];
    whois.lookup(domainName, function(error, result) {
       if (error != null) {
-         console.log(error);
          res.send(JSON.stringify({ "error": "Invalid domain: No WHOIS server found for the address. ex: google.com" }));
          return
       }
